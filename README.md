@@ -50,3 +50,33 @@ AI Response
   |
   v
 React Frontend
+MultiAiAgent/
+│
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   │   ├── userSlice.js
+│   │   │   ├── conversationSlice.js
+│   │   │   └── messageSlice.js
+│   │   └── App.jsx
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── graph/
+│   │   ├── graph.js
+│   │   ├── router.js
+│   │   ├── chat.js
+│   │   ├── search.js
+│   │   ├── coding.js
+│   │   ├── pdf.js
+│   │   ├── ppt.js
+│   │   └── vision.js
+│   ├── models/
+│   └── package.json
+│
+└── README.md
